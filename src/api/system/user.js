@@ -1,6 +1,8 @@
 import request from '@/utils/request'
 import { encrypt } from '@/utils/rsaEncrypt'
 
+// 标准的restful风格的API
+// 2020年11月23日22:55 写的注释
 export function add(data) {
   return request({
     url: 'api/users',
